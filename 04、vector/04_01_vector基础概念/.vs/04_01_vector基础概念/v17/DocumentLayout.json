@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\cpp_stl\\04\u3001vector\\04_01_vector\u57FA\u7840\u6982\u5FF5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77262A-3B06-4F26-A574-640D8A310AEB}|04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5.vcxproj|D:\\Project\\cpp_stl\\04\u3001vector\\04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A77262A-3B06-4F26-A574-640D8A310AEB}|04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5.vcxproj|solutionrelative:04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77262A-3B06-4F26-A574-640D8A310AEB}|04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5.vcxproj|C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u5185\u5B58\u7ED3\u6784.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A77262A-3B06-4F26-A574-640D8A310AEB}|04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5.vcxproj|C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u6269\u5BB9.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vector\u6269\u5BB9.png",
+              "DocumentMoniker": "C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u6269\u5BB9.png",
+              "ToolTip": "C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u6269\u5BB9.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-27T00:39:43.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector\u5185\u5B58\u7ED3\u6784.png",
+              "DocumentMoniker": "C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u5185\u5B58\u7ED3\u6784.png",
+              "ToolTip": "C:\\Users\\honor\\Videos\\\u300AC\u002B\u002BSTL\u300B\\\u8BFE\u7A0B\u8D44\u6599\\vector\u5185\u5B58\u7ED3\u6784.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-27T00:39:39.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Project\\cpp_stl\\04\u3001vector\\04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp",
+              "RelativeDocumentMoniker": "04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp",
+              "ToolTip": "D:\\Project\\cpp_stl\\04\u3001vector\\04_01_vector\u57FA\u7840\u6982\u5FF5\\04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp",
+              "RelativeToolTip": "04_01_vector\u57FA\u7840\u6982\u5FF5\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-27T00:33:06.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
