@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_09_string数据查找", "05_09_string数据查找\05_09_string数据查找.vcxproj", "{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Debug|x64.ActiveCfg = Debug|x64
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Debug|x64.Build.0 = Debug|x64
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Debug|x86.Build.0 = Debug|Win32
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Release|x64.ActiveCfg = Release|x64
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Release|x64.Build.0 = Release|x64
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Release|x86.ActiveCfg = Release|Win32
+		{FA03F2C9-DED7-41EA-8D9B-C18B52F84A38}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4606F305-3C0B-419E-BC32-9CACB7DB6C0D}
+	EndGlobalSection
+EndGlobal
