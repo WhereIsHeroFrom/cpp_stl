@@ -6,8 +6,6 @@ int main() {
     set<int> s;
     multiset<int> ms;
 
-    pair<string, int> a;
-
 
     return 0;
 }
