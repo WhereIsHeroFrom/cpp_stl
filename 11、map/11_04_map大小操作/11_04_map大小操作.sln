@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_04_map大小操作", "11_04_map大小操作\11_04_map大小操作.vcxproj", "{392B05AF-2371-490E-9D20-8C35AEDD1B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Debug|x64.ActiveCfg = Debug|x64
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Debug|x64.Build.0 = Debug|x64
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Debug|x86.ActiveCfg = Debug|Win32
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Debug|x86.Build.0 = Debug|Win32
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Release|x64.ActiveCfg = Release|x64
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Release|x64.Build.0 = Release|x64
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Release|x86.ActiveCfg = Release|Win32
+		{392B05AF-2371-490E-9D20-8C35AEDD1B92}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5122432E-8836-4C12-8C6D-BA78FC618FA6}
+	EndGlobalSection
+EndGlobal

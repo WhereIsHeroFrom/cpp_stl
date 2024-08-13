@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_08_map数据修改", "11_08_map数据修改\11_08_map数据修改.vcxproj", "{37817D97-94C1-4C5C-8C62-2042394CDF22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Debug|x64.ActiveCfg = Debug|x64
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Debug|x64.Build.0 = Debug|x64
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Debug|x86.ActiveCfg = Debug|Win32
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Debug|x86.Build.0 = Debug|Win32
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Release|x64.ActiveCfg = Release|x64
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Release|x64.Build.0 = Release|x64
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Release|x86.ActiveCfg = Release|Win32
+		{37817D97-94C1-4C5C-8C62-2042394CDF22}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7DF8CC8-8521-4A36-B5E5-6F8AB0FDE19F}
+	EndGlobalSection
+EndGlobal
