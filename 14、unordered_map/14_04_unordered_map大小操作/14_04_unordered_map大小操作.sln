@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_04_unordered_map大小操作", "14_04_unordered_map大小操作\14_04_unordered_map大小操作.vcxproj", "{FBE44D39-3A07-4DEB-9187-B135C6482858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Debug|x64.ActiveCfg = Debug|x64
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Debug|x64.Build.0 = Debug|x64
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Debug|x86.Build.0 = Debug|Win32
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Release|x64.ActiveCfg = Release|x64
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Release|x64.Build.0 = Release|x64
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Release|x86.ActiveCfg = Release|Win32
+		{FBE44D39-3A07-4DEB-9187-B135C6482858}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47FC3467-3432-41A8-9D59-F6C0B96C2471}
+	EndGlobalSection
+EndGlobal
