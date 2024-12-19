@@ -14,25 +14,25 @@ int main() {
     cout << "l:";
     printList(l);
 
-    // 1. = ¸³Öµ
+    // 1. = èµ‹å€¼
     list<int> l1;
     l1 = l;
     cout << "l1:";
     printList(l1);
 
-    // 2. assign(µü´úÆ÷)
+    // 2. assign(è¿­ä»£å™¨)
     list<int> l2;
     l2.assign(l1.begin(), l1.end());
     cout << "l2:";
     printList(l2);
 
-    // 3. assign(³õÊ¼»¯ÁĞ±í)
+    // 3. assign(åˆå§‹åŒ–åˆ—è¡¨)
     list<int> l3;
     l3.assign({ 1,3,1,4 });
     cout << "l3:";
     printList(l3);
 
-    // 4. assign(a, b) ³õÊ¼»¯ a ¸ö b
+    // 4. assign(a, b) åˆå§‹åŒ– a ä¸ª b
     list<int> l4;
     l4.assign(8, 6);
     cout << "l4:";

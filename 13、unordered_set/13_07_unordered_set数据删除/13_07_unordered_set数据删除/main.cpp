@@ -24,7 +24,7 @@ int main() {
     s = { 16,12,33,4,5,6,7,8,9,10,11,12,13,14,15 };
     unordered_set<int>::iterator itl = s.find(12);
     unordered_set<int>::iterator itr = s.find(14);
-    s.erase(itl, itr);    // 不建议用
+    s.erase(itl, itr);    // 涓嶅缓璁敤
     printUSet(s);
 
     s.clear();

@@ -3,7 +3,7 @@ public:
     vector<long long> mostFrequentIDs(vector<int>& nums, vector<int>& freq) {
         multiset<long long> ms;
         multiset<long long>::iterator it;
-        long long cnt[100001] = { 0 };  // cnt[i] ´ú±í i Õâ¸öÔªËØ³öÏÖµÄ´ÎÊý
+        long long cnt[100001] = { 0 };  // cnt[i] ä»£è¡¨ i è¿™ä¸ªå…ƒç´ å‡ºçŽ°çš„æ¬¡æ•°
         vector<long long> ans(nums.size(), 0);
         for (int i = 0; i < nums.size(); ++i) {
             int x = nums[i];

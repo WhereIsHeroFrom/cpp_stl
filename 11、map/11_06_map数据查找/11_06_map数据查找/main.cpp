@@ -21,10 +21,10 @@ int main() {
     for (int i = 4; i <= 5; ++i) {
         map<int, int>::iterator it = m.find(i);
         if (it != m.end()) {
-            cout << "ÕÒµ½¼üÖµ¶Ô£º£¨" << it->first << "," << it->second << "£©" << endl;
+            cout << "æ‰¾åˆ°é”®å€¼å¯¹ï¼šï¼ˆ" << it->first << "," << it->second << "ï¼‰" << endl;
         }
         else {
-            cout << "Î´ÕÒµ½¼ü£º" << i << endl;
+            cout << "æœªæ‰¾åˆ°é”®ï¼š" << i << endl;
         }
     }
 

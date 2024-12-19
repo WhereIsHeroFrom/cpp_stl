@@ -8,7 +8,7 @@ int main() {
     s1.insert(4, "o ");
     cout << s1 << endl;
     
-    s1.insert(s1.size(), "�ٺٺ�");
+    s1.insert(s1.size(), "ºÙºÙºÙ");
     cout << s1 << endl;
 
     s1.insert(s1.begin(), ':');

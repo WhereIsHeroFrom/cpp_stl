@@ -15,13 +15,13 @@ int main() {
     cout << "s: ";
     printUSet(s);
 
-    // 1. = set¶ÔÏó
+    // 1. = setå¯¹è±¡
     unordered_set <int> s1;
     s1 = s;
     cout << "s1: ";
     printUSet(s1);
 
-    // 2. = ³õÊ¼»¯ÁĞ±í
+    // 2. = åˆå§‹åŒ–åˆ—è¡¨
     unordered_set<int> s2;
     s2 = { 3, 4, 7, 6, 7, 8 ,9 , 2, 1 };
     cout << "s2: ";

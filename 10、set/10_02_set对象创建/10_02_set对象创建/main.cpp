@@ -10,26 +10,26 @@ void printSet(const set<int>& s) {
 }
 
 int main() {
-    // 1.Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1.é»˜è®¤æ„é€ å‡½æ•°
     set<int> s1;
     cout << "s1: ";
     printSet(s1);
 
-    // 2. ³õÊ¼»¯ÁĞ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     set<int> s2_1 = { 9,8,7,6,5 };
     cout << "s2_1: ";
     printSet(s2_1);
 
-    set<int> s2_2({ 9,8,7,7,6,5 });  // set²»Ö§³ÖÖØ¸´ÔªËØ¡¢multisetÖ§³ÖÖØ¸´ÔªËØ
+    set<int> s2_2({ 9,8,7,7,6,5 });  // setä¸æ”¯æŒé‡å¤å…ƒç´ ã€multisetæ”¯æŒé‡å¤å…ƒç´ 
     cout << "s2_2: ";
     printSet(s2_2);
 
-    // 3. µü´úÆ÷µÄ·½Ê½
+    // 3. è¿­ä»£å™¨çš„æ–¹å¼
     set<int> s3(s2_1.begin(), s2_1.end());
     cout << "s3: ";
     printSet(s3);
 
-    // 4. ¿½±´¹¹Ôì
+    // 4. æ‹·è´æ„é€ 
     set<int> s4(s2_2);
     cout << "s4: ";
     printSet(s4);

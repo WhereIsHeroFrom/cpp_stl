@@ -27,7 +27,7 @@ int main() {
     for (int i = 0; i < 150000; ++i) {
         remove1(v, 4);
     }
-    cout << "½áÊø" << endl;
+    cout << "Â½Ã¡ÃŠÃ¸" << endl;
     cout << "remove2 : ";
     // printVector(v);
     for (int i = 0; i < 150006; ++i) {
@@ -36,7 +36,7 @@ int main() {
     for (int i = 0; i < 150000; ++i) {
         remove2(v, 4);
     }
-    cout << "½áÊø" << endl;
+    cout << "Â½Ã¡ÃŠÃ¸" << endl;
     
     return 0;
 }

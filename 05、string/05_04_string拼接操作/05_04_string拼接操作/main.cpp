@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
     // 1. +
-    string s1 = "Ó¢ĞÛ";
-    string t1 = "³öÀ´";
-    s1 = s1 + "ÄÄÀï";        // const char*
+    string s1 = "è‹±é›„";
+    string t1 = "å‡ºæ¥";
+    s1 = s1 + "å“ªé‡Œ";        // const char*
     // cout << s1 << endl;
     s1 = s1 + t1;            // const string&
     // cout << s1 << endl;
@@ -15,9 +15,9 @@ int main() {
     cout << s1 << endl;
 
     // 2. +=
-    string s2 = "Ò¹Éî";
-    string t2 = "Ğ´Ëã·¨";
-    s2 += "ÈË¾²";        // const char*
+    string s2 = "å¤œæ·±";
+    string t2 = "å†™ç®—æ³•";
+    s2 += "äººé™";        // const char*
     // cout << s2 << endl;
     s2 += t2;            // const string&
     // cout << s2 << endl;
@@ -25,17 +25,17 @@ int main() {
     cout << s2 << endl;
 
     // 3. append
-    string s3 = "Ó¢ĞÛ";
-    string t3 = "ÁªÃË";
-    s3.append("Ëã·¨");
+    string s3 = "è‹±é›„";
+    string t3 = "è”ç›Ÿ";
+    s3.append("ç®—æ³•");
     s3.append(t3);
-    s3.append("5201314", 3);     // 3 ´ú±í¸öÊı
+    s3.append("5201314", 3);     // 3 ä»£è¡¨ä¸ªæ•°
     // cout << s3 << endl;
-    s3.append("5201314", 3, 4);  // 3 ´ú±íÎ»ÖÃ
+    s3.append("5201314", 3, 4);  // 3 ä»£è¡¨ä½ç½®
     cout << s3 << endl;
 
     // 4. push_back
-    string s4 = "Ó¢ĞÛ±à³Ì";
+    string s4 = "è‹±é›„ç¼–ç¨‹";
     s4.push_back('6');
     s4.push_back('6');
     s4.push_back('6');

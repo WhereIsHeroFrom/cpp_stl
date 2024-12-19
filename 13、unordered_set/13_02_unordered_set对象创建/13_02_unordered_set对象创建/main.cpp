@@ -11,12 +11,12 @@ void printUSet(const unordered_set<int>& s) {
 }
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êý
+    // 1. é»˜è®¤æž„é€ å‡½æ•°
     unordered_set<int> s1;
     cout << "s1: ";
     printUSet(s1);
 
-    // 2. ³õÊ¼»¯ÁÐ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     unordered_set<int> s2_1 = { 9,8,7,5,6,1,2,3,4 };
     cout << "s2_1: ";
     printUSet(s2_1);
@@ -25,12 +25,12 @@ int main() {
     cout << "s2_2: ";
     printUSet(s2_2);
 
-    // 3. µü´úÆ÷
+    // 3. è¿­ä»£å™¨
     unordered_set<int> s3(s2_1.begin(), s2_1.end());
     cout << "s3: ";
     printUSet(s3);
 
-    // 4. ¿½±´¹¹Ôì
+    // 4. æ‹·è´æž„é€ 
     unordered_set<int> s4(s2_2);
     cout << "s4: ";
     printUSet(s4);

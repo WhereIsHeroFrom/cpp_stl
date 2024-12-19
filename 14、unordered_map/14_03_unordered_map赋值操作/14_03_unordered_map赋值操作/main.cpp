@@ -16,13 +16,13 @@ int main() {
     cout << "m: " << endl;
     printUMap(m);
 
-    // 1. = ¶ÔÏó
+    // 1. = å¯¹è±¡
     unordered_map<int, int> m1;
     m1 = m;
     cout << "m1: " << endl;
     printUMap(m1);
 
-    // 2. ³õÊ¼»¯ÁĞ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     unordered_map<int, int> m2;
     m2 = {
         pair<int, int>(5, 10), pair<int, int>(2, 10), pair<int, int>(4, 31), pair<int, int>(3,610)

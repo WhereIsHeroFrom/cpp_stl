@@ -10,7 +10,7 @@ void printVector(vector<int>& v) {
 }
 
 int main() {
-    // 1. 内存交换
+    // 1. 鍐呭瓨浜ゆ崲
     vector<int> v1 = { 1,2,3,4,5 };
     vector<int> v2 = { 9,8,7,6,5 };
     cout << "v1: ";
@@ -23,7 +23,7 @@ int main() {
     cout << "v2: ";
     printVector(v2);
 
-    // 2.缩容
+    // 2.缂╁
     v1.resize(1000000);
     v1.resize(5);
     cout << "v1.capacity = " << v1.capacity() << endl;
@@ -32,7 +32,7 @@ int main() {
     vector<int> x(v1);
     cout << "x.capacity = " << x.capacity() << endl;
 
-    // 3.内存清理
+    // 3.鍐呭瓨娓呯悊
     v2.resize(1000000);
     v2.clear();
     cout << "v2.capacity = " << v2.capacity() << endl;

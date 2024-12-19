@@ -15,25 +15,25 @@ int main() {
     cout << "d: ";
     printDeque(d);
 
-    // 1. = ¸³Öµ
+    // 1. = èµ‹å€¼
     deque<int> d1;
     d1 = d;
     cout << "d1: ";
     printDeque(d1);
 
-    // 2. assign(µü´úÆ÷)
+    // 2. assign(è¿­ä»£å™¨)
     deque<int> d2;
     d2.assign(d1.begin()+1, d1.end());
     cout << "d2: ";
     printDeque(d2);
 
-    // 3. ³õÊ¼»¯ÁĞ±í
+    // 3. åˆå§‹åŒ–åˆ—è¡¨
     deque<int> d3;
     d3.assign({ 1,2,3,5,6,7 });
     cout << "d3: ";
     printDeque(d3);
 
-    // 4. ³õÊ¼»¯ a ¸ö b
+    // 4. åˆå§‹åŒ– a ä¸ª b
     deque<int> d4;
     d4.assign(8, 6);
     cout << "d4: ";

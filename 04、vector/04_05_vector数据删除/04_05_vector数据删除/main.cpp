@@ -10,24 +10,24 @@ void printVector(vector<int>& v) {
 }
 
 /*
-1°¢pop_back
-2°¢erase
-3°¢clear
+1„ÄÅpop_back
+2„ÄÅerase
+3„ÄÅclear
 */
 int main() {
     vector<int> v = { 9,8,5,211 };
     printVector(v);
 
-    // 1°¢pop_back
+    // 1„ÄÅpop_back
     v.pop_back();
     printVector(v);
 
-    // 2°¢erase
+    // 2„ÄÅerase
     vector<int>::iterator it = v.erase(v.begin());
     printVector(v);
     cout << *it << endl;
 
-    // 3°¢clear
+    // 3„ÄÅclear
     v.clear();
     printVector(v);
 

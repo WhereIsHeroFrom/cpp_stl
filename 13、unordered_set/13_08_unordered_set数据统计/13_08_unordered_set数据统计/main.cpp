@@ -20,13 +20,13 @@ void printUMSet(const unordered_multiset<int>& s) {
 int main() {
     unordered_set <int> s = { 1,2,3,4,5 };
     for (int i = 0; i < 8; i += 2) {
-        cout << "ÔªËØ£º" << i << "µÄ³öÏÖ´ÎÊýÊÇ " << s.count(i) << endl;  // has(i)
+        cout << "å…ƒç´ ï¼š" << i << "çš„å‡ºçŽ°æ¬¡æ•°æ˜¯ " << s.count(i) << endl;  // has(i)
     }
     printUSet(s);
 
     unordered_multiset<int> ms = { 1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,7,7,7,7,7 };
     for (int i = 0; i < 8; i += 2) {
-        cout << "ÔªËØ£º" << i << "µÄ³öÏÖ´ÎÊýÊÇ " << ms.count(i) << endl;
+        cout << "å…ƒç´ ï¼š" << i << "çš„å‡ºçŽ°æ¬¡æ•°æ˜¯ " << ms.count(i) << endl;
     }
     printUMSet(ms);
 

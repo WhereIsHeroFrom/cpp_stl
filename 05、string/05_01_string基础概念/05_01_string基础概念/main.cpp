@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    char a[100] = "英雄哪里出来";
+    char a[100] = "鑻遍泟鍝噷鍑烘潵";
     cout << a << endl;
     // cout << (void *)a << endl;
-    string b = "英雄算法联盟";
+    string b = "鑻遍泟绠楁硶鑱旂洘";
     cout << b << endl;
    
     return 0;

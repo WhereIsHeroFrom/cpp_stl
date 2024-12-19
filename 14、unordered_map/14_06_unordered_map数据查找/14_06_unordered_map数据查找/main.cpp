@@ -13,10 +13,10 @@ int main() {
     for (int i = 0; i <= 4; ++i) {
         unordered_map<int, int>::iterator it = m.find(i);
         if (it != m.end()) {
-            cout << "ÕÒµ½¼üÖµ¶Ô£º(" << it->first << "," << it->second << ")" << endl;
+            cout << "æ‰¾åˆ°é”®å€¼å¯¹ï¼š(" << it->first << "," << it->second << ")" << endl;
         }
         else {
-            cout << "Î´ÕÒµ½¼ü£º" << i << endl;
+            cout << "æœªæ‰¾åˆ°é”®ï¼š" << i << endl;
         }
     }
     //cout << m[3] << endl;

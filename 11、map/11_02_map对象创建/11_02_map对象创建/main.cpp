@@ -11,12 +11,12 @@ void printMap(const map<int, int>& m) {
 }
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êý
+    // 1. é»˜è®¤æž„é€ å‡½æ•°
     map<int, int> m1;
     cout << "m1: " << endl;
     printMap(m1);
 
-    // 2. ³õÊ¼»¯ÁÐ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     map<int, int> m2_1 = {
         pair<int, int>(1, 10),
         pair<int, int>(4, 24),
@@ -35,12 +35,12 @@ int main() {
     cout << "m2_2: " << endl;
     printMap(m2_2);
 
-    // 3. µü´úÆ÷
+    // 3. è¿­ä»£å™¨
     map<int, int> m3(m2_1.begin(), m2_1.end());
     cout << "m3: " << endl;
     printMap(m3);
 
-    // 4. ¿½±´¹¹Ôì
+    // 4. æ‹·è´æž„é€ 
     map<int, int> m4(m2_2);
     cout << "m4: " << endl;
     printMap(m4);

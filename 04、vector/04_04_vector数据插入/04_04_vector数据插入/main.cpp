@@ -9,8 +9,8 @@ void printVector(vector<int>& v) {
     cout << endl;
 }
 /*
-1¡¢push_back
-2¡¢insert
+1Â¡Â¢push_back
+2Â¡Â¢insert
 */
 
 int main() {

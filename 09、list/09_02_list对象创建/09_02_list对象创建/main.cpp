@@ -10,12 +10,12 @@ void printList(const list<int>& l) {
 }
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1. é»˜è®¤æ„é€ å‡½æ•°
     list<int> l1;
     cout << "l1:";
     printList(l1);
 
-    // 2. ³õÊ¼»¯ÁĞ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     list<int> l2_1 = { 9,8,7,6,5 };
     cout << "l2_1: ";
     printList(l2_1);
@@ -24,22 +24,22 @@ int main() {
     cout << "l2_2: ";
     printList(l2_2);
 
-    // 3. µü´úÆ÷
+    // 3. è¿­ä»£å™¨
     list <int> l3(l2_1.begin(), l2_1.end());
     cout << "l3: ";
     printList(l3);
 
-    // 4. È«0³õÊ¼»¯
+    // 4. å…¨0åˆå§‹åŒ–
     list<int> l4(8);
     cout << "l4: ";
     printList(l4);
 
-    // 5. list<int> ±äÁ¿Ãû(a, b) ´ú±íÉêÇë a ¸ö¿Õ¼äµÄÔªËØ£¬Ã¿¸öÔªËØ³õÊ¼»¯Îª b
+    // 5. list<int> å˜é‡å(a, b) ä»£è¡¨ç”³è¯· a ä¸ªç©ºé—´çš„å…ƒç´ ï¼Œæ¯ä¸ªå…ƒç´ åˆå§‹åŒ–ä¸º b
     list <int> l5(8, 6);
     cout << "l5: ";
     printList(l5);
 
-    // 6. ¿½±´¹¹Ôìº¯Êı
+    // 6. æ‹·è´æ„é€ å‡½æ•°
     list<int> l6(l2_2);
     cout << "l6: ";
     printList(l6);

@@ -18,7 +18,7 @@ int main() {
         pair<int, int>(4, 90)
     };
     for (int i = -1; i < 3; ++i) {
-        cout << i << "的出现次数是" << m.count(i) << endl;
+        cout << i << "鐨勫嚭鐜版鏁版槸" << m.count(i) << endl;
     }
     multimap<int, int> mm = {
         pair<int, int>(1, 4),pair<int, int>(1, 4),pair<int, int>(1, 4),pair<int, int>(1, 4),
@@ -27,7 +27,7 @@ int main() {
         pair<int, int>(4, 90),
     };
     for (int i = -1; i < 3; ++i) {
-        cout << i << "的出现次数是" << mm.count(i) << endl;
+        cout << i << "鐨勫嚭鐜版鏁版槸" << mm.count(i) << endl;
     }
 
 

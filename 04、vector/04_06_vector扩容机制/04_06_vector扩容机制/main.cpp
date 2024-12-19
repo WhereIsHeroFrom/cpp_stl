@@ -10,8 +10,8 @@ void printVector(vector<int>& v) {
 }
 
 /*
-容量：capacity()
-大小：size()
+脠脻脕驴拢潞capacity()
+麓贸脨隆拢潞size()
 */
 
 int main() {

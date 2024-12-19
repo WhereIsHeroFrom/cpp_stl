@@ -20,13 +20,13 @@ int main() {
     cout << "m: " << endl;
     printMap(m);
 
-    // 1. = ¶ÔÏó
+    // 1. = å¯¹è±¡
     map<int, int> m1;
     m1 = m;
     cout << "m1: " << endl;
     printMap(m1);
 
-    // 2. = ³õÊ¼»¯ÁĞ±í
+    // 2. = åˆå§‹åŒ–åˆ—è¡¨
     map<int, int> m2;
     m2 = {
         pair<int, int>(1, 8),

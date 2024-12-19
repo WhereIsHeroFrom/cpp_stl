@@ -14,24 +14,24 @@ int main() {
     cout << "v:";
     printVector(v);
 
-    // 1. = ¸³Öµ
+    // 1. = èµ‹å€¼
     vector<int> v1 = v;
     cout << "v1:";
     printVector(v1);
 
-    // 2. assign(µü´úÆ÷)
+    // 2. assign(è¿­ä»£å™¨)
     vector<int> v2;
     v2.assign(v1.begin(), v1.end());
     cout << "v2:";
     printVector(v2);
 
-    // 3. ³õÊ¼»¯ÁĞ±í
+    // 3. åˆå§‹åŒ–åˆ—è¡¨
     vector<int> v3;
     v3.assign({ 1,2,3,4,5,6 });
     cout << "v3:";
     printVector(v3);
 
-    // 4. ³õÊ¼»¯ a ¸ö b
+    // 4. åˆå§‹åŒ– a ä¸ª b
     vector<int> v4;
     v4.assign(8, 6);
     cout << "v4:";

@@ -10,12 +10,12 @@ void printDeque(deque<int>& d) {
 }
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1. é»˜è®¤æ„é€ å‡½æ•°
     deque<int> d1;
     cout << "d1: ";
     printDeque(d1);
 
-    // 2. ³õÊ¼»¯ÁĞ±í
+    // 2. åˆå§‹åŒ–åˆ—è¡¨
     deque<int> d2_1({ 9,8,8,6, 5 });
     cout << "d2_1: ";
     printDeque(d2_1);
@@ -23,22 +23,22 @@ int main() {
     cout << "d2_2: ";
     printDeque(d2_2);
 
-    // 3. µü´úÆ÷
+    // 3. è¿­ä»£å™¨
     deque<int> d3(d2_1.begin()+1, d2_1.end()-1);
     cout << "d3: ";
     printDeque(d3);
 
-    // 4. È«0³õÊ¼»¯
+    // 4. å…¨0åˆå§‹åŒ–
     deque<int> d4(10);
     cout << "d4: ";
     printDeque(d4);
 
-    // 5. deque<int> ±äÁ¿Ãû(a,b)   ´ú±íÉêÇëa¸öÔªËØ¿Õ¼ä£¬Ã¿¸öÔªËØµÄÖµ³õÊ¼»¯b
+    // 5. deque<int> å˜é‡å(a,b)   ä»£è¡¨ç”³è¯·aä¸ªå…ƒç´ ç©ºé—´ï¼Œæ¯ä¸ªå…ƒç´ çš„å€¼åˆå§‹åŒ–b
     deque<int> d5(8, 6);
     cout << "d5: ";
     printDeque(d5);
 
-    // 6. ¿½±´¹¹Ôìº¯Êı
+    // 6. æ‹·è´æ„é€ å‡½æ•°
     deque<int> d6(d5);
     cout << "d6: ";
     printDeque(d6);

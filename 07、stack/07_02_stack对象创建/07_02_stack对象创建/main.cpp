@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1. é»˜è®¤æ„é€ å‡½æ•°
     stack<int> stk1;
 
-    // 2. ¿½±´¹¹Ôìº¯Êı
+    // 2. æ‹·è´æ„é€ å‡½æ•°
     stack<int> stk2(stk1);
 
     return 0;

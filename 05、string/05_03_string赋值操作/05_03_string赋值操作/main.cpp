@@ -2,29 +2,29 @@
 using namespace std;
 
 int main() {
-    // 1. ×Ö·û´®³£Á¿µÄ¸³Öµ
+    // 1. å­—ç¬¦ä¸²å¸¸é‡çš„èµ‹å€¼
     string s1;
-    s1 = "Ó¢ĞÛÄÄÀï³öÀ´";
+    s1 = "è‹±é›„å“ªé‡Œå‡ºæ¥";
     cout << s1 << endl;
 
-    // 2.×Ö·û´®±äÁ¿µÄ¸³Öµ
+    // 2.å­—ç¬¦ä¸²å˜é‡çš„èµ‹å€¼
     string s2;
     s2 = s1;
     cout << s2 << endl;
 
-    // 3. ×Ö·û³£Á¿¸³Öµ
+    // 3. å­—ç¬¦å¸¸é‡èµ‹å€¼
     string s3;
     s3 = 'x';
     cout << s3 << endl;
 
     // 4. assign v1
     string s4;
-    s4.assign("Ó¢ĞÛËã·¨ÁªÃË");
+    s4.assign("è‹±é›„ç®—æ³•è”ç›Ÿ");
     cout << s4 << endl;
 
     // 5. assign v2
     string s5;
-    s5.assign("Ó¢ĞÛËã·¨ÁªÃË", 8);
+    s5.assign("è‹±é›„ç®—æ³•è”ç›Ÿ", 8);
     cout << s5 << endl;
 
     // 6. assign v3
@@ -32,7 +32,7 @@ int main() {
     s6.assign(s5);
     cout << s6 << endl;
 
-    // 7. a¸öb
+    // 7. aä¸ªb
     string s7;
     s7.assign(8, '6');
     cout << s7 << endl;

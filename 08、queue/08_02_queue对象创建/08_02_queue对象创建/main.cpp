@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    // 1. Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1. é»˜è®¤æ„é€ å‡½æ•°
     queue<int> q1;
 
-    // 2. ¿½±´¹¹Ôìº¯Êı
+    // 2. æ‹·è´æ„é€ å‡½æ•°
     queue<int> q2(q1);
 
     return 0;

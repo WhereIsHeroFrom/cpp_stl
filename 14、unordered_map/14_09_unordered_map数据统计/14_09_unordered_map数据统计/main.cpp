@@ -11,7 +11,7 @@ int main() {
         pair<int, int>(5, 666),
     };
     for (int i = -1; i < 3; ++i) {
-        cout << i << "的出现次数是" << m.count(i) << endl; // has
+        cout << i << "鐨勫嚭鐜版鏁版槸" << m.count(i) << endl; // has
     }
     unordered_multimap<int, int> mm = {
         pair<int, int>(1, 4),
@@ -24,7 +24,7 @@ int main() {
         pair<int, int>(5, 666),
     };
     for (int i = -1; i < 3; ++i) {
-        cout << i << "的出现次数是" << mm.count(i) << endl;
+        cout << i << "鐨勫嚭鐜版鏁版槸" << mm.count(i) << endl;
     }
 
 

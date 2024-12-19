@@ -14,8 +14,8 @@ int main() {
     cout << v[2] << endl;
     cout << v.at(2) << endl;
 
-    //cout << v[12] << endl;      ²úÉúÎ´¶¨ÒåĞĞÎª
-    //cout << v.at(12) << endl;   »á²úÉúÒì³£
+    //cout << v[12] << endl;      äº§ç”Ÿæœªå®šä¹‰è¡Œä¸º
+    //cout << v.at(12) << endl;   ä¼šäº§ç”Ÿå¼‚å¸¸
 
     cout << "front: " << v.front() << endl;
     cout << "back: " << v.back() << endl;

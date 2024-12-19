@@ -23,12 +23,12 @@ private:
 
 int main() {
     set< CGaGa > s;
-    s.insert(CGaGa("C++Ëã·¨Áã»ù´¡", 5));
-    s.insert(CGaGa("C++ÃæÏò¶ÔÏó", 2));
-    s.insert(CGaGa("C++Áã»ù´¡Óï·¨", 1));
-    s.insert(CGaGa("C++Êı¾İ½á¹¹", 3));
+    s.insert(CGaGa("C++ç®—æ³•é›¶åŸºç¡€", 5));
+    s.insert(CGaGa("C++é¢å‘å¯¹è±¡", 2));
+    s.insert(CGaGa("C++é›¶åŸºç¡€è¯­æ³•", 1));
+    s.insert(CGaGa("C++æ•°æ®ç»“æ„", 3));
     s.insert(CGaGa("C++STL", 4));
-    s.insert(CGaGa("C++ÏîÄ¿ÊµÕ½(Ì°Ê³Éß¡¢É¨À×¡¢3DÈü³µ)", 6));
+    s.insert(CGaGa("C++é¡¹ç›®å®æˆ˜(è´ªé£Ÿè›‡ã€æ‰«é›·ã€3Dèµ›è½¦)", 6));
 
     for (set< CGaGa >::iterator it = s.begin(); it != s.end(); it++) {
         (*it).print();

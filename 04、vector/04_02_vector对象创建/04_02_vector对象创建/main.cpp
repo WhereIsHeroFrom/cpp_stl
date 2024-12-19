@@ -10,12 +10,12 @@ void printVector(vector<int>& v) {
 }
 
 int main() {
-    // 1.Ä¬ÈÏ¹¹Ôìº¯Êı
+    // 1.é»˜è®¤æ„é€ å‡½æ•°
     vector<int> v1;
     cout << "v1:";
     printVector(v1);
 
-    // 2.³õÊ¼»¯ÁĞ±í
+    // 2.åˆå§‹åŒ–åˆ—è¡¨
     // int a[5] = {9,8,7,6,5};
     vector<int> v2_1 = { 9,8,7,6,5 };
     cout << "v2_1:";
@@ -24,22 +24,22 @@ int main() {
     cout << "v2_2:";
     printVector(v2_2);
 
-    // 3.µü´úÆ÷
+    // 3.è¿­ä»£å™¨
     vector<int> v3(v2_1.begin(), v2_1.end());
     cout << "v3:";
     printVector(v3);
 
-    // 4.È«0³õÊ¼»¯
+    // 4.å…¨0åˆå§‹åŒ–
     vector<int> v4(8);
     cout << "v4:";
     printVector(v4);
 
-    // 5. vector<int> ±äÁ¿Ãû(a, b); ÉêÇëa¸ö¿Õ¼äµÄÔªËØ£¬Ã¿¸öÔªËØµÄÖµ³õÊ¼»¯Îª b
+    // 5. vector<int> å˜é‡å(a, b); ç”³è¯·aä¸ªç©ºé—´çš„å…ƒç´ ï¼Œæ¯ä¸ªå…ƒç´ çš„å€¼åˆå§‹åŒ–ä¸º b
     vector<int> v5(8, 6);
     cout << "v5:";
     printVector(v5);
 
-    // 6. ¿½±´¹¹Ôìº¯Êı
+    // 6. æ‹·è´æ„é€ å‡½æ•°
     vector<int> v6(v2_2);
     cout << "v6:";
     printVector(v6);

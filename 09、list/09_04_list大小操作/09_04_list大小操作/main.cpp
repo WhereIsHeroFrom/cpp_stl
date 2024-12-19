@@ -10,9 +10,9 @@ void printList(const list<int>& l) {
 }
 
 /*
-1¡¢empty
-2¡¢size
-3¡¢resize
+1Â¡Â¢empty
+2Â¡Â¢size
+3Â¡Â¢resize
 */
 
 int main() {

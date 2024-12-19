@@ -19,11 +19,11 @@ void printMultiSet(const multiset<int>& s) {
 int main() {
     set<int> s = { 1,2,3,4,5 };
     for (int i = 0; i < 8; i += 2) {
-        cout << "ÔªËØ£º" << i << "µÄ³öÏÖ´ÎÊýÎª " << s.count(i) << endl;  // s.has(i)
+        cout << "å…ƒç´ ï¼š" << i << "çš„å‡ºçŽ°æ¬¡æ•°ä¸º " << s.count(i) << endl;  // s.has(i)
     }
     multiset<int> ms = { 1,1,1,1,1,1,4,4,4,4,4,2,2,2,2,2,2,2,6,6,6,6,6,8,8,8,5,5,5,5,5 };
     for (int i = 0; i < 8; i += 2) {
-        cout << "ÔªËØ£º" << i << "µÄ³öÏÖ´ÎÊýÎª " << ms.count(i) << endl;
+        cout << "å…ƒç´ ï¼š" << i << "çš„å‡ºçŽ°æ¬¡æ•°ä¸º " << ms.count(i) << endl;
     }
     printMultiSet(ms);
 

@@ -14,13 +14,13 @@ int main() {
     cout << "s: ";
     printSet(s);
 
-    // 1. = set ¶ÔÏó
+    // 1. = set å¯¹è±¡
     set<int> s1;
     s1 = s;
     cout << "s1: ";
     printSet(s1);
 
-    // 2. = ³õÊ¼»¯ÁĞ±í
+    // 2. = åˆå§‹åŒ–åˆ—è¡¨
     set<int> s2;
     s1 = (s2 = { 3, 4, 5 });
     cout << "s2: ";

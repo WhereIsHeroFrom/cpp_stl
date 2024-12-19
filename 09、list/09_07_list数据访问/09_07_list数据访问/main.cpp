@@ -21,7 +21,7 @@ int getListItemByIndex(list<int>& l, int index) {
 int main() {
     list<int> l = { -1, 9, 8, 5, 2, 1, 1, -1 };
 
-    // l[4];         无法进行随机访问
+    // l[4];         鏃犳硶杩涜闅忔満璁块棶
     // l.at(6);
 
     list<int>::iterator it = l.begin();

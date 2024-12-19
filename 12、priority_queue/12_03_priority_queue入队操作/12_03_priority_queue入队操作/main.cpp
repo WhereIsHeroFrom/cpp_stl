@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    // 1¡¢×î´óÓÅÏÈ¶ÓÁĞ
+    // 1ã€æœ€å¤§ä¼˜å…ˆé˜Ÿåˆ—
     priority_queue<int, vector<int>, less<int> > q1;
     q1.push(6);
     q1.push(3);
@@ -14,7 +14,7 @@ int main() {
     q1.push(17);
     q1.push(0);
 
-    // 2¡¢×îĞ¡ÓÅÏÈ¶ÓÁĞ
+    // 2ã€æœ€å°ä¼˜å…ˆé˜Ÿåˆ—
     priority_queue<int, vector<int>, greater<int> > q2;
     q2.push(6);
     q2.push(3);

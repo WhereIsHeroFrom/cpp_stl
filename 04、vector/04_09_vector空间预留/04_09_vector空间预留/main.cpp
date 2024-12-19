@@ -9,7 +9,7 @@ int main() {
         cout << "size = " << v.size() << ", " << "capacity = " << v.capacity() << endl;
         v.push_back(i);
     }
-    // reserve   修改的是 capacity
-    // resize    修改的是 size
+    // reserve   淇敼鐨勬槸 capacity
+    // resize    淇敼鐨勬槸 size
     return 0;
 }

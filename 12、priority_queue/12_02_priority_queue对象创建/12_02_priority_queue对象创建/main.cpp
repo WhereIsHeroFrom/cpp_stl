@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    // 1║╒вН╢Ссеох╤сап
+    // 1Ц─│Ф°─Е╓╖Д╪≤Е┘┬И≤÷Е┬≈
     priority_queue <int> q1;
 
-    // 2║╒вНп║сеох╤сап
+    // 2Ц─│Ф°─Е╟▐Д╪≤Е┘┬И≤÷Е┬≈
     priority_queue<int, vector<int>, greater<int> > q2;
     return 0;
 }

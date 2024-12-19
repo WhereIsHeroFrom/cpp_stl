@@ -7,7 +7,7 @@ int main() {
     string subStr = s1.substr(7, 4);
     cout << subStr << endl;
 
-    string s2 = "Ó¢ĞÛÄÄÀï³öÀ´&&Ò¹ÉîÈË¾²Ğ´Ëã·¨";
+    string s2 = "è‹±é›„å“ªé‡Œå‡ºæ¥&&å¤œæ·±äººé™å†™ç®—æ³•";
     int pos = s2.find("&&");
     string s3 = s2.substr(0, pos);
     string s4 = s2.substr(pos + 2);

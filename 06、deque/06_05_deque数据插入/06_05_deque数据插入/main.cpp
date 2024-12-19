@@ -11,30 +11,30 @@ void printDeque(deque<int>& d) {
 }
 
 /*
-1°¢push_front
-2°¢push_back
-3°¢insert
+1„ÄÅpush_front
+2„ÄÅpush_back
+3„ÄÅinsert
 */
 
 int main() {
 
     deque<int> d;
 
-    // 1°¢push_front
+    // 1„ÄÅpush_front
     d.push_front(-1);
     d.push_front(-2);
     d.push_front(-3);
     // -3 -2 -1
     printDeque(d);
 
-    // 2°¢push_back
+    // 2„ÄÅpush_back
     d.push_back(1);
     d.push_back(2);
     d.push_back(3);
     // -3 -2 -1 1 2 3
     printDeque(d);
 
-    // 3°¢insert
+    // 3„ÄÅinsert
     d.insert(d.begin() + 3, 0);
     // -3 -2 -1 0 1 2 3
     printDeque(d);

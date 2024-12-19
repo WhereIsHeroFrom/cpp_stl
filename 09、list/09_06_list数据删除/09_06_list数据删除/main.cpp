@@ -10,9 +10,9 @@ void printList(const list<int>& l) {
 }
 
 /*
-1¡¢pop_front
-2¡¢pop_back
-3¡¢erase¡¢clear
+1ã€pop_front
+2ã€pop_back
+3ã€eraseã€clear
 */
 
 int main() {

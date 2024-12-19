@@ -10,29 +10,29 @@ void printList(const list<int>& l) {
 }
 
 /*
-1¡¢push_front
-2¡¢push_back
-3¡¢insert
+1ã€push_front
+2ã€push_back
+3ã€insert
 */
 
 int main() {
     list<int> l;
 
 
-    // 1¡¢push_front
+    // 1ã€push_front
     l.push_front(-1);   // -1
     l.push_front(-2);   // -2 -1
     l.push_front(-3);   // -3 -2 -1
     printList(l);
 
-    // 2¡¢push_back
+    // 2ã€push_back
     l.push_back(1);     // -3 -2 -1 1
     l.push_back(2);     // -3 -2 -1 1 2
     l.push_back(3);     // -3 -2 -1 1 2 3
     printList(l);
 
-    // 3¡¢insert
-    // 3.1 insert(µü´úÆ÷, Öµ)
+    // 3ã€insert
+    // 3.1 insert(è¿­ä»£å™¨, å€¼)
     list<int>::iterator it = l.begin();
     it++;
     it++;
@@ -45,13 +45,13 @@ int main() {
     l.insert(it, 0);   // -3 -2 -1 0 1 2 3
     printList(l);
 
-    // 3.2 insert(µü´úÆ÷, ÊıÁ¿, Öµ)
+    // 3.2 insert(è¿­ä»£å™¨, æ•°é‡, å€¼)
     it = l.end();
     --it;
     l.insert(it, 5, 8);
     printList(l);      // -3 -2 -1 0 1 2 8 8 8 8 8 3
 
-    // 3.3 insert(µü´úÆ÷£¬µü´úÆ÷µÄ¿ªÊ¼Î»ÖÃ£¬µü´úÆ÷µÄ½áÊøÎ»ÖÃ)
+    // 3.3 insert(è¿­ä»£å™¨ï¼Œè¿­ä»£å™¨çš„å¼€å§‹ä½ç½®ï¼Œè¿­ä»£å™¨çš„ç»“æŸä½ç½®)
     it = l.begin();
     it++;
     l.insert(it, l.begin(), l.end());
